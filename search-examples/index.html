@@ -1,0 +1,44 @@
+<html>
+<head>
+	<!-- Simple JavaScript Calculator -->
+	<!-- Author: Oscar Parra -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div> Simple JavaScript Calculator <br>
+	 <ul>
+	 	<li>Add put a "+"</li>
+	 	<li>Sub put a "-"</li>
+	 	<li>Mul put a "*"</li>
+	 	<li>Sub put a "/"</li>
+	 <ul>
+</div>
+
+<div id="div-table">
+<table>
+	<tr>
+		<th>Param 1:</th>
+		<th>Param 2:</th>
+		<th>Procedure:</th>
+	</tr>
+	<tr>
+		<form id="usr-inputs">
+			<td><input id="input-ele" class="input"></input></td>
+			<td><input id="input-ele2" class="input"></input></td>
+			<td><input id="operation" class="input"></input></td>
+	    </form>
+	</tr>
+</table>
+<div>
+<button onclick="controller()" class="btn">Equals</button>
+<button onclick="reset()" class="btn"> Reset Inputs </button>
+<div>
+</div>
+<div id="output">
+</div>
+</body>
+<footer>
+	<script src="index.js">
+	</script>
+</footer>
+</html>
